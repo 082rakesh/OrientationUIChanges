@@ -12,17 +12,6 @@
 		4FA718B020CBA77800E91992 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FA718AE20CBA77800E91992 /* LaunchScreen.storyboard */; };
 		4FA718C020CBA83200E91992 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA718BF20CBA83100E91992 /* AppDelegate.swift */; };
 		4FA718C220CBA83D00E91992 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA718C120CBA83D00E91992 /* ViewController.swift */; };
-		4FA718C620CF9E3900E91992 /* EndPointType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA718C520CF9E3900E91992 /* EndPointType.swift */; };
-		4FA718C820CF9F0D00E91992 /* HTTPTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA718C720CF9F0D00E91992 /* HTTPTask.swift */; };
-		4FA718CA20CFA04800E91992 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA718C920CFA04800E91992 /* HTTPMethod.swift */; };
-		4FA718CC20CFA1C300E91992 /* NetworkLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA718CB20CFA1C300E91992 /* NetworkLogger.swift */; };
-		4FA718D020CFA8AE00E91992 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA718CF20CFA8AE00E91992 /* ParameterEncoding.swift */; };
-		4FA718D220CFA90900E91992 /* URLParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA718D120CFA90900E91992 /* URLParameterEncoding.swift */; };
-		4FA718D420CFA92500E91992 /* JSONParamterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA718D320CFA92500E91992 /* JSONParamterEncoder.swift */; };
-		4FA718D820CFA9F600E91992 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA718D720CFA9F600E91992 /* Router.swift */; };
-		4FA718DA20CFEAE700E91992 /* CountryEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA718D920CFEAE700E91992 /* CountryEndPoint.swift */; };
-		4FA718DC20CFECF100E91992 /* CountryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA718DB20CFECF100E91992 /* CountryManager.swift */; };
-		4FA718DE20CFED9500E91992 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA718DD20CFED9500E91992 /* Country.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,17 +22,6 @@
 		4FA718B120CBA77800E91992 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4FA718BF20CBA83100E91992 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4FA718C120CBA83D00E91992 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4FA718C520CF9E3900E91992 /* EndPointType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPointType.swift; sourceTree = "<group>"; };
-		4FA718C720CF9F0D00E91992 /* HTTPTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPTask.swift; sourceTree = "<group>"; };
-		4FA718C920CFA04800E91992 /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
-		4FA718CB20CFA1C300E91992 /* NetworkLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLogger.swift; sourceTree = "<group>"; };
-		4FA718CF20CFA8AE00E91992 /* ParameterEncoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParameterEncoding.swift; sourceTree = "<group>"; };
-		4FA718D120CFA90900E91992 /* URLParameterEncoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLParameterEncoding.swift; sourceTree = "<group>"; };
-		4FA718D320CFA92500E91992 /* JSONParamterEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParamterEncoder.swift; sourceTree = "<group>"; };
-		4FA718D720CFA9F600E91992 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
-		4FA718D920CFEAE700E91992 /* CountryEndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryEndPoint.swift; sourceTree = "<group>"; };
-		4FA718DB20CFECF100E91992 /* CountryManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryManager.swift; sourceTree = "<group>"; };
-		4FA718DD20CFED9500E91992 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,9 +54,7 @@
 		4FA718A420CBA77600E91992 /* SwiftNetworkApp */ = {
 			isa = PBXGroup;
 			children = (
-				4FA718BA20CBA7D500E91992 /* Networking */,
 				4FA718B920CBA7C000E91992 /* ViewController */,
-				4FA718B820CBA7B200E91992 /* Model */,
 				4FA718B720CBA7A700E91992 /* Application */,
 				4FA718A920CBA77600E91992 /* Main.storyboard */,
 				4FA718AC20CBA77800E91992 /* Assets.xcassets */,
@@ -96,69 +72,12 @@
 			path = Application;
 			sourceTree = "<group>";
 		};
-		4FA718B820CBA7B200E91992 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				4FA718DD20CFED9500E91992 /* Country.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
 		4FA718B920CBA7C000E91992 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
 				4FA718C120CBA83D00E91992 /* ViewController.swift */,
 			);
 			path = ViewController;
-			sourceTree = "<group>";
-		};
-		4FA718BA20CBA7D500E91992 /* Networking */ = {
-			isa = PBXGroup;
-			children = (
-				4FA718BE20CBA80000E91992 /* Encoding */,
-				4FA718BD20CBA7F700E91992 /* Service */,
-				4FA718BC20CBA7EE00E91992 /* Manager */,
-				4FA718BB20CBA7E400E91992 /* EndPoint */,
-			);
-			path = Networking;
-			sourceTree = "<group>";
-		};
-		4FA718BB20CBA7E400E91992 /* EndPoint */ = {
-			isa = PBXGroup;
-			children = (
-				4FA718D920CFEAE700E91992 /* CountryEndPoint.swift */,
-			);
-			path = EndPoint;
-			sourceTree = "<group>";
-		};
-		4FA718BC20CBA7EE00E91992 /* Manager */ = {
-			isa = PBXGroup;
-			children = (
-				4FA718DB20CFECF100E91992 /* CountryManager.swift */,
-			);
-			path = Manager;
-			sourceTree = "<group>";
-		};
-		4FA718BD20CBA7F700E91992 /* Service */ = {
-			isa = PBXGroup;
-			children = (
-				4FA718C520CF9E3900E91992 /* EndPointType.swift */,
-				4FA718C720CF9F0D00E91992 /* HTTPTask.swift */,
-				4FA718C920CFA04800E91992 /* HTTPMethod.swift */,
-				4FA718CB20CFA1C300E91992 /* NetworkLogger.swift */,
-				4FA718D720CFA9F600E91992 /* Router.swift */,
-			);
-			path = Service;
-			sourceTree = "<group>";
-		};
-		4FA718BE20CBA80000E91992 /* Encoding */ = {
-			isa = PBXGroup;
-			children = (
-				4FA718CF20CFA8AE00E91992 /* ParameterEncoding.swift */,
-				4FA718D120CFA90900E91992 /* URLParameterEncoding.swift */,
-				4FA718D320CFA92500E91992 /* JSONParamterEncoder.swift */,
-			);
-			path = Encoding;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,19 +152,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FA718D020CFA8AE00E91992 /* ParameterEncoding.swift in Sources */,
-				4FA718CC20CFA1C300E91992 /* NetworkLogger.swift in Sources */,
-				4FA718C620CF9E3900E91992 /* EndPointType.swift in Sources */,
-				4FA718C820CF9F0D00E91992 /* HTTPTask.swift in Sources */,
-				4FA718D220CFA90900E91992 /* URLParameterEncoding.swift in Sources */,
-				4FA718CA20CFA04800E91992 /* HTTPMethod.swift in Sources */,
-				4FA718DC20CFECF100E91992 /* CountryManager.swift in Sources */,
 				4FA718C220CBA83D00E91992 /* ViewController.swift in Sources */,
 				4FA718C020CBA83200E91992 /* AppDelegate.swift in Sources */,
-				4FA718D420CFA92500E91992 /* JSONParamterEncoder.swift in Sources */,
-				4FA718DE20CFED9500E91992 /* Country.swift in Sources */,
-				4FA718DA20CFEAE700E91992 /* CountryEndPoint.swift in Sources */,
-				4FA718D820CFA9F600E91992 /* Router.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
